@@ -1,0 +1,83 @@
+
+
+#container{
+    border: 2px solid lightblue;
+    padding: 10px;
+    text-align: center;
+    background-color: black;    
+}
+
+#title{
+    text-align:center;
+    border: 2px solid white;
+    width: 50%;
+    margin-left: 25%;
+    color: white;
+    background-color:black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#menu_data{
+    margin-left: 25%;
+    border: 2px solid white;
+    width: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#div_1{
+    text-align: center;
+    margin:5px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    border-radius:5px;
+}
+
+#div_2{
+    text-align: center;
+    margin:10px;
+    border: 2px solid black;
+    border-radius:5px;
+}
+
+img{
+    width: 90%;
+    height: 90%;
+    border: 2px solid white;
+    margin: 5px;
+}
+
+#order{
+    border: 2px solid white;
+    width: 50%;
+    margin-left: 25%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+button{
+    width: 100%;
+    background-color: lightblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#orderplace{
+    color: white;
+    float: right;
+    margin-right: 35px;
+}
+#append{
+    width: 50%;
+    border: 2px solid yellow;
+    margin-left: 25%;
+}
+
+#div_p{
+    color: white;
+    width: 100%;
+}
